@@ -298,12 +298,12 @@ class Task(Area):
 
 class User(Area):
     def current(self):
-        return self.transport.get(url='/user/')
+        return self.transport.GET(url='/user/')
 
 
 class Org(Area):
     def get_all(self):
-        return self.transport.get(url='/org/')
+        return self.transport.GET(url='/org/')
 
 
 class Status(Area):
