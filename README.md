@@ -47,6 +47,10 @@ a keyword argument to a transport function call. For example:
     result = c.Item.find(11007, basic=True, handler=x)
     ($result, $data) #Returned info
 
+Modified from original files:
+    - pypodio2/areas.py: lines 301 and 306, method 'get' to 'GET'
+
+
 Tests
 -----
 
