@@ -48,7 +48,7 @@ a keyword argument to a transport function call. For example:
     ($result, $data) #Returned info
 
 Modified from original files:
-    - pypodio2/areas.py: lines 301 and 306, method 'get' to 'GET'
+    * pypodio2/areas.py: lines 301 and 306, method 'get' to 'GET'
 
 
 Tests
