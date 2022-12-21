@@ -15,12 +15,12 @@ Dependencies
 PyPodio is not yet available on PyPI, we're waiting to have it a bit more
 stable. Install by cloning from the GitHub repo:
 
-    $ git clone git://github.com/podio/podio-py.git
+    $ git clone git://github.com/gbvsilva/podio-py.git
     $ cp -r podio-py/pypodio2 path/to/destination
 
 Alternatively, install via `pip`:
     
-    $ pip install -e git+https://github.com/podio/podio-py.git#egg=podio-py
+    $ pip install -e git+https://github.com/gbvsilva/podio-py.git#egg=podio-py
 
 
 Example
