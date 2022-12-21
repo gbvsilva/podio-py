@@ -82,7 +82,7 @@ class Item(Area):
     def find(self, item_id, basic=False, **kwargs):
         """
         Get item
-        
+
         :param item_id: Item ID
         :param basic: ?
         :type item_id: int
@@ -133,7 +133,7 @@ class Item(Area):
         """
         Updates the item using the supplied attributes. If 'silent' is true, Podio will send
         no notifications to subscribed users and not post updates to the stream.
-        
+
         Important: webhooks will still be called.
         """
         if not isinstance(attributes, dict):
@@ -251,7 +251,7 @@ class Task(Area):
     def delete(self, task_id):
         """
         Deletes the app with the given id.
-        
+
         :param task_id: Task ID
         :type task_id: str or int
         """
@@ -348,7 +348,7 @@ class Space(Area):
     def create(self, attributes):
         """
         Create a new space
-        
+
         :param attributes: Refer to API. Pass in argument as dictionary
         :type attributes: dict
         :return: Details of newly created space
