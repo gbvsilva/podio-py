@@ -20,7 +20,7 @@ stable. Install by cloning from the GitHub repo:
 
 Alternatively, install via `pip`:
     
-    $ pip install -e git+https://github.com/gbvsilva/podio-py.git#egg=podio-py
+    $ pip install -e git+https://github.com/gbvsilva/podio-py.git#egg=pypodio2
 
 
 Example
