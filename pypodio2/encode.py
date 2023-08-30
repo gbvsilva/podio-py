@@ -1,11 +1,7 @@
-import urllib.request
-import http.client
 import mimetypes
 import codecs
 import uuid
-import binascii
 import io
-import os
 import sys
 
 def multipart_encode(fields, files):
